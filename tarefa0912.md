@@ -16,6 +16,7 @@
 4. O Conjunto de classes de Equivalência deverá ser definido seguindo o seguinte padrão:
 
 |id|descrição|V/I|
+|--|--|--|
 |CE01|Reprovar alunos que tiverem a quantidade de faltas*  > (25% * cargaHoraria)|I|
 |CE02|Reprovar por falta se nota1 >= 6.0 e nota2 >= 6.0 e a quantidade de faltas > (25% * cargaHoraria)|I|
 |CE03|Reprovar alunos que obter nota1 e nota2 <  3.0 |I|
@@ -30,6 +31,7 @@ Onde:
 5. O Conjunto de casos de testes derivado das classes de Equivalência deve seguir o seguinte padrão:
 
 |CT|Valor de Entrada|Resultado Esperado|Classe Equivalência|
+|--|--|--|
 |CT01|nota1 = 6.0;  nota2 = 6.0;  cargaHoraria = 60;  faltas = 16|Reprovado por Falta|CE2|
 |CT02|nota1 = 6.0;  nota2 = 6.0;  cargaHoraria = 60;  faltas = 5|Aprovado|CE5|
 |CT03|nota1 = 4.0;  nota2 = 5.0;  cargaHoraria = 60;  faltas = 8|Recuperação|CE4|

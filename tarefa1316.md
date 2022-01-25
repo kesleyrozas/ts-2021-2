@@ -11,6 +11,7 @@
 Obs: Carga horária de 64H
 
 |id|descrição|V/I|
+|--|--|--|
 |CE01|Reprovar alunos que tiverem a quantidade de faltas*  > (25% * cargaHoraria)|I|
 |CE02|Reprovar por falta se nota1 >= 6.0 e nota2 >= 6.0 e a quantidade de faltas > (25% * cargaHoraria)|I|
 |CE03|Reprovar alunos que obter nota1 e nota2 <  3.0 |I|
@@ -20,6 +21,7 @@ Obs: Carga horária de 64H
 4. O Conjunto de casos de testes derivado deve seguir o seguinte padrão:
 
 |CT|Valor de Entrada|Resultado Esperado|Classe Equivalência|
+|--|--|--|
 |CT01|6.0, 7.0, 15|Aprovado|CE05|
 |CT02|7.0, 8.0, 16|Reprovado por Falta|CE02|
 |CT03|8.0, 9.0, 17|Reprovado por Falta|CE01|
