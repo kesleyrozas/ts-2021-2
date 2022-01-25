@@ -31,7 +31,7 @@ Onde:
 5. O Conjunto de casos de testes derivado das classes de Equivalência deve seguir o seguinte padrão:
 
 |CT|Valor de Entrada|Resultado Esperado|Classe Equivalência|
-|--|--|--|
+|--|--|--|--|
 |CT01|nota1 = 6.0;  nota2 = 6.0;  cargaHoraria = 60;  faltas = 16|Reprovado por Falta|CE2|
 |CT02|nota1 = 6.0;  nota2 = 6.0;  cargaHoraria = 60;  faltas = 5|Aprovado|CE5|
 |CT03|nota1 = 4.0;  nota2 = 5.0;  cargaHoraria = 60;  faltas = 8|Recuperação|CE4|
