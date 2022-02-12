@@ -19,14 +19,14 @@
 
 <!--![Figura 1 - Grafo-->
 <div align="center">
-  <img src="./imagens/grafo_causa_efeito.png">
+  <img src="./images/grafo_causa_efeito.png">
   <figcaption>Figura 1 - Grafo</figcaption>
   </div>
 <br>
    2. Geração da tabela de decisão para representar o cenário.
       1. Editar este arquivo e adicionar a tabela de decisão.
 
-|Condições|Testes|Testes|Testes|Testes|Testes|Testes|Testes|
+|Condições|Testes|Testes|Testes|Testes|Testes|Testes|Testes|Testes|
 |---|---|---|---|---|---|---|---|---|
 |Condições|Masculino|Masculino|Masculino|Masculino|Feminino|Feminino|Feminino|Feminino|
 |Casado|Não|Sim|Não|Sim|Não|Sim|Não|Sim|
