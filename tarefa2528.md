@@ -26,12 +26,13 @@
    2. Geração da tabela de decisão para representar o cenário.
       1. Editar este arquivo e adicionar a tabela de decisão.
 
+|Condições|Testes|Testes|Testes|Testes|Testes|Testes|Testes|
 |---|---|---|---|---|---|---|---|---|
-||Masculino|Masculino|Masculino|Masculino|Feminino|Feminino|Feminino|Feminino|
+|Condições|Masculino|Masculino|Masculino|Masculino|Feminino|Feminino|Feminino|Feminino|
 |Casado|Não|Sim|Não|Sim|Não|Sim|Não|Sim|
 |Solteiro|Sim|Não|Sim|Não|Sim|Não|Sim|Não|
 |Idade|24|24|26|26|24|24|26|26|
-|Desconto|0|5|10|15|5|10|15|20
+|Desconto|0|5|10|15|5|10|15|20|
 
    3. Geração do conjunto de casos de teste suficientes para cobrir todos os cenários, constantes do grafo e da tabela de decisão.
       1. Editar este arquivo e adicionar a tabela com os casos de teste, conforme exemplos disponibilizados em tarefas anteriores.
